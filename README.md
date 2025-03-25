@@ -23,4 +23,9 @@ Pizza Pro is a growing pizza chain offering a variety of pizza in different size
   - Objective: Optimize inventory management and marketing strategies based on seasonal trends, ensuring adequate stock during peak demand periods while minimizing waste during slower months.
  
 ## Data Source
-The dataset used for this analysis can be
+The dataset used for this analysis can be acessed in  Microsoft Excel [download here].(https://www.microsoft.com)
+## Tool Used
+- Power BI
+  - For Data cleaning
+  - Data transformation
+  - Interactive dashboard creation
