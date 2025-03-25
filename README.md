@@ -31,18 +31,10 @@ The dataset used for this analysis can be acessed in  Microsoft Excel [download 
   - Interactive dashboard creation.
  
 ## Analysis Methodology
-To derive meaningful analysis the following steps were taken
+The dataset, provided as a CSV file, was loaded into Power BI, and the following steps were carried out to prepare it for analysis.
 - Data Cleaning
-
-- Analysis Methodology
-
-The dataset, provided as a CSV file, was loaded into Power BI, and the following steps were carried out to prepare it for analysis:
-
-1. Data Cleaning & Preprocessing
-
-Ensured data consistency by correcting misspelled words and filling missing values using the Find and Replace function.
-
-Removed unnecessary columns that were not relevant to the analysis. For instance, the "Hour" column and "Pizza Type ID" were deleted since the "Name" column already provided the necessary information.
+   - Ensured data consistency by correcting misspelled words and filling missing values using the Find and Replace function.
+   - Removed unnecessary columns that were not relevant to the analysis. For instance, the "Hour" column and "Pizza Type ID" were deleted since the  "Name" column already provided the necessary information.
 
 
 
