@@ -21,3 +21,6 @@ Pizza Pro is a growing pizza chain offering a variety of pizza in different size
 - Sales Seasonality:
   - Requirement: Identify trends in pizza sales across different times of the year, correlating with holidays, weather changes, and regional events.
   - Objective: Optimize inventory management and marketing strategies based on seasonal trends, ensuring adequate stock during peak demand periods while minimizing waste during slower months.
+ 
+## Data Source
+The dataset used for this analysis can be
