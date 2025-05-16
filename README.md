@@ -114,15 +114,22 @@ Evaluate introducing more size options for other categories
        - Spring: Highest sales
        - Autumn: Lowest
 
+   - By Time of Day:
 
-By Time of Day:
-| Time Period | Revenue (£) | Orders | Quantity | |-------------|--------------|--------|----------| | Morning     | 3,406        | 202    | 209      | | Afternoon   | 32,244       | 1,913  | 1,960    | | Night       | 31,541       | 1,744  | 1,886    |
+| Time Period | Revenue ($) | Orders | Quantity
+|
+|-------------|--------------|--------|---------
+|
+| Morning     | 3,406        | 202    | 209
+|
+| Afternoon   | 32,244       | 1,913  | 1,960
+|
+| Night       | 31,541       | 1,744  | 1,886
+|
 
-Afternoon and Night see significantly higher sales than Morning
-
-Afternoon peak driven by lunch breaks and group orders
-
-Night orders often relate to dinner and family meals
+     - Afternoon and Night see significantly higher sales than Morning
+     - Afternoon peak driven by lunch breaks and group orders
+     - Night orders often relate to dinner and family meals
 
 
 Recommendation:
@@ -131,54 +138,4 @@ Scale down morning operations or explore breakfast-focused offerings
 
 Promote meal deals during lunch and dinner periods
 
-Run targeted promotions on Fridays and during spring
-
-
-
----
-
-Business Impact
-
-Optimized product offerings (e.g., reduce Brie Carre, expand Chicken category)
-
-More effective marketing through targeted timing and days
-
-Informed inventory planning by season and time of day
-
-Increased revenue through strategic cross-selling and bundling
-
-
-
----
-
-Visuals (Power BI / Excel Dashboard Suggestions)
-
-Bar Chart: Revenue by Pizza Type
-
-Pie Chart: Customer Preferences by Category
-
-Line Chart: Monthly Sales Trend
-
-Heatmap: Sales by Day and Time of Day
-
-Stacked Column Chart: Sales by Season
-
-Table or KPI Cards: Sales Metrics (Total Revenue, Top Pizza, Best Day/Time)
-
-
-
----
-
-Next Steps
-
-Segment customers by demographics or location for deeper personalization
-
-Add customer feedback/review analysis
-
-Run A/B testing on revamped menu options
-
-
-
----
-
-Let me know if you’d like me to generate a sample README.md for GitHub or create dashboard visuals as mockups!
+Run targeted promotions on Fridays and during 
