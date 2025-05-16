@@ -63,4 +63,122 @@ Developed an interactive dashboard to answer the business questions, visualizing
 
 
 
-This structured approach ensured that the dataset was well-prepared for in-depth analysis, enabling accurate insights into Pizza Pro’s sales, customer preferences, and operational efficiency.
+This structured approach ensured that the dataset was well-prepared for in-depth analysis, enabling accurate insights into Pizza Pro’s sales, customer preferences, and operational efficient.
+
+### Key Insights
+
+#### Revenue by Pizza Type
+
+- Insight: Top Performers:
+      - Thai Chicken
+      - Barbecue Chicken
+      - California Chicken
+      - All belong to the Chicken category
+- Underperformer:
+      - Brie Carre – only sells in small size, contributing the least revenue
+
+Recommendation:
+
+Promote Chicken pizzas across channels; offer bundle deals
+
+Consider rebranding, resizing, or phasing out Brie Carre
+
+
+
+#### Customer Preferences by Pizza Category
+
+- Insight
+   - Chicken category is the most popular and profitable
+   - Category Size Variety: Chicken has 5 size variants; others only 3
+   - Difference in preference between categories is small (1–2%), showing a fairly balanced demand
+
+
+Recommendation:
+
+Focus cross-selling efforts on Chicken pizzas with beverages and side dishes
+
+Evaluate introducing more size options for other categories
+
+#### Sales Seasonality
+- Insight
+    - By Month:
+       - Higher sales in: January, March, April, May, June, July, August, November, December
+       - Slight drop in Q2 and Q3; Q4 is lowest but difference is not significant
+
+    - By Day of the Week:
+       - Friday: Highest sales – end-of-week relaxation and group hangouts
+       - Sunday: Lowest sales
+       - Steady increase from Monday to Friday
+
+   - By Season:
+       - Spring: Highest sales
+       - Autumn: Lowest
+
+
+By Time of Day:
+| Time Period | Revenue (£) | Orders | Quantity | |-------------|--------------|--------|----------| | Morning     | 3,406        | 202    | 209      | | Afternoon   | 32,244       | 1,913  | 1,960    | | Night       | 31,541       | 1,744  | 1,886    |
+
+Afternoon and Night see significantly higher sales than Morning
+
+Afternoon peak driven by lunch breaks and group orders
+
+Night orders often relate to dinner and family meals
+
+
+Recommendation:
+
+Scale down morning operations or explore breakfast-focused offerings
+
+Promote meal deals during lunch and dinner periods
+
+Run targeted promotions on Fridays and during spring
+
+
+
+---
+
+Business Impact
+
+Optimized product offerings (e.g., reduce Brie Carre, expand Chicken category)
+
+More effective marketing through targeted timing and days
+
+Informed inventory planning by season and time of day
+
+Increased revenue through strategic cross-selling and bundling
+
+
+
+---
+
+Visuals (Power BI / Excel Dashboard Suggestions)
+
+Bar Chart: Revenue by Pizza Type
+
+Pie Chart: Customer Preferences by Category
+
+Line Chart: Monthly Sales Trend
+
+Heatmap: Sales by Day and Time of Day
+
+Stacked Column Chart: Sales by Season
+
+Table or KPI Cards: Sales Metrics (Total Revenue, Top Pizza, Best Day/Time)
+
+
+
+---
+
+Next Steps
+
+Segment customers by demographics or location for deeper personalization
+
+Add customer feedback/review analysis
+
+Run A/B testing on revamped menu options
+
+
+
+---
+
+Let me know if you’d like me to generate a sample README.md for GitHub or create dashboard visuals as mockups!
