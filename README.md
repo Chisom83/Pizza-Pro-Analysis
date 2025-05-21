@@ -32,38 +32,22 @@ The dataset used for this analysis can be acessed in  Microsoft Excel [download 
  
 ## Analysis Methodology
 The dataset, provided as a CSV file, was loaded into Power BI, and the following steps were carried out to prepare it for analysis.
-- Data Cleaning
+1. Data Cleaning
    - Ensured data consistency by correcting misspelled words and filling missing values using the Find and Replace function.
    - Removed unnecessary columns that were not relevant to the analysis. For instance, the "Hour" column and "Pizza Type ID" were deleted since the  "Name" column already provided the necessary information.
 
-
-
 2. Data Transformation & Integration
-
-Merged the three tables into a single table for streamlined analysis.
-
-Resolved inconsistencies where columns with the same names in different tables did not match.
-
-Added a calculated column to categorize time into Morning, Afternoon, and Night based on the time values.
-
-Created a calendar table to support time-based analysis and ensured proper data connections in the data model.
-
-
+   - Merged the three tables into a single table for streamlined analysis.
+   - Resolved inconsistencies where columns with the same names in different tables did not match.
+   - Added a calculated column to categorize time into Morning, Afternoon, and Night based on the time values.
+   - Created a calendar table to support time-based analysis and ensured proper data connections in the data model.
 
 3. Loading Data into Power BI
-
-After cleaning and transforming the dataset, the Close & Apply function was used to load the final table into Power BI.
-
-
+   - After cleaning and transforming the dataset, the Close & Apply function was used to load the final table into Power BI inorder to start my analysis.
 
 4. Dashboard Creation
-
-Developed an interactive dashboard to answer the business questions, visualizing key insights to support decision-making.
-
-
-
-
-This structured approach ensured that the dataset was well-prepared for in-depth analysis, enabling accurate insights into Pizza Pro’s sales, customer preferences, and operational efficient.
+   - Developed an interactive dashboard to answer the business questions, visualizing key insights to support decision-making.
+- This structured approach ensured that the dataset was well-prepared for in-depth analysis, enabling accurate insights into Pizza Pro’s sales, customer preferences, and operational efficient.
 
 ### Key Insights
 
