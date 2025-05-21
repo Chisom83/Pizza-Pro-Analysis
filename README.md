@@ -75,12 +75,15 @@ The dataset, provided as a CSV file, was loaded into Power BI, and the following
 
 1. Revenue by Pizza Type
 > Image
-- Insight: Top Performers:
+- Insight:
+    - Top Performers:
+      
       - Thai Chicken
       - Barbecue Chicken
       - California Chicken
-      - All belong to the Chicken category and generaating more revenue to the company.
-- Underperformer:
+      - All belong to the Chicken category and generating more revenue to the company.
+   - Underperformer:
+     
       - Brie Carre – only sells in small size, contributing the least revenue
 
 - Measure Used: 
