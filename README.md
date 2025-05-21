@@ -135,10 +135,11 @@ Evaluate introducing more size options for other categories
 | Afternoon   | 32,244     | 1,913  | 1,960
 | Night       | 31,541     | 1,744  | 1,886
 
-     - Afternoon and Night shows significantly higher sales than Morning
-     - Most people prefer light meal for breakfast like tea, coffee and cereal with bread while some are focused with work and not meal yet.
-     - People order more in the afternoon for lunch, meetings and group gathering. 
-     - Most night are for social activties and people order inregard to it and also for dinner not having to go through the stress of cooking.
+
+  - Afternoon and Night shows significantly higher sales than Morning
+  - Most people prefer light meal for breakfast like tea, coffee and cereal with bread while some are focused with work and not meal yet.
+  - People order more in the afternoon for lunch, meetings and group gathering. 
+  - Most night are for social activties and people order inregard to it and also for dinner not having to go through the stress of cooking.
     
 
 Recommendation:
