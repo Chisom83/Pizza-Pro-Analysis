@@ -135,7 +135,12 @@ Evaluate introducing more size options for other categories
 | Afternoon   | 32,244       | 1,913  | 1,960
 |
 | Night       | 31,541       | 1,744  | 1,886
-|
+
+
+| Time Period | Revenue | Orders | Quantity
+|-------------|---------|--------|----------
+| Morning     | 3,406   | 202    | 209
+| Afternoon   | 32,244  | 1,913  | 1,960
 
      - Afternoon and Night see significantly higher sales than Morning
      - Afternoon peak driven by lunch breaks and group orders
