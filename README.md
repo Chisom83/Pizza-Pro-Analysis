@@ -18,17 +18,17 @@ Pizza Pro is a growing pizza chain offering a variety of pizza in different size
   - Total Revenue: The total sales generated from the pizza orders
   - Order Quantity: The total volume of pizzas sold.
   - Total Orders: The total number of overall orders.
-    
+
 ### Business Problems and Objectives
 - Revenue by Pizza Type
   - Requirement: Analyze which pizza types contribute the most to the company's revenue.
-  - Objective: Optimize menu offerings by promoting best-selling pizza types. Also, identifying underperforming pizza to either improve or remove from the menu.
-- Customer Preferences Based on Pizza Category
+  - Objective: Optimize menu offerings by promoting best-selling pizza types and identifying underperforming pizza to either improve or remove from the menu.
+- Customer Preferences Based by Pizza Category
   - Requirement: Group pizzas by their category (e.g., Supreme, Chicken) and identify which categories are most popular among customers.
-  - Objective: Target promotions towards popular pizza categories and explore cross-selling opportunities with side dishes or beverages.
+  - Objective: Target promotions towards popular pizza categories and explore cross-selling opportunities with beverages.
 - Sales Seasonality:
-  - Requirement: Identify trends in pizza sales across different times of the year, correlating with holidays, weather changes, and regional events.
-  - Objective: Optimize inventory management and marketing strategies based on seasonal trends, ensuring adequate stock during peak demand periods while minimizing waste during slower months.
+  - Requirement: Identify trends in pizza sales across different times of the year, weekdays and times of day. 
+  - Objective: Optimize inventory management and marketing strategies based on seasonal trends, ensuring adequate stock during peak demand periods to reduce waste and boost sales.
  
 ## Dataset
 The dataset used for this analysis can be acessed in  Microsoft Excel [download here].(https://www.microsoft.com)
@@ -95,6 +95,7 @@ The dataset, provided as a CSV file, was loaded into Power BI, and the following
      
       - Brie Carre – sells only in small size and generating the least revenue.
 
+*Insight:* Thai Chicken, BBQ Chicken, and California Chicken pizzas dominate in revenue, accounting for over 40% of total pizza sales.
 - Measure Used: 
 
 Recommendation:
@@ -107,10 +108,21 @@ Consider rebranding, resizing, or phasing out Brie Carre
 ### 2. Customer Preferences by Pizza Category
 > Image
 - Insight
+  ### Pizza Category Sales
+
+| Category | Revenue | % of Total |
+|----------|---------|------------|
+| Chicken  | £78,000 | 38%        |
+| Supreme  | £64,000 | 31%        |
+| Veggie   | £34,000 | 17%        |
+| Classic  | £28,000 | 14%        |
+
+*Insight:* Chicken pizzas generate the highest revenue at 38%, nearly double that of Classic pizzas. This supports the recommendation to focus marketing and expansion on the Chicken category.
    - Chicken category is the most popular and prefered pizza by customers.
    - The difference between the three different categories is minimal which ranges from (1–2%), showing a fairly balanced demand.
    - Chicken category alone has five size variant ( small, medium, large, X-Large and XXLarge) while the other categories has only three (3) different sizes.
 
+Insight: Chicken pizzas are not only most popular, but also offer more size flexibility. Small size dominates across all categories.
 - Measure Used:
   
 Recommendation:
@@ -150,7 +162,7 @@ Evaluate introducing more size options for other categories
 | Afternoon   | 32,244     | 1,913  | 1,960
 | Night       | 31,541     | 1,744  | 1,886
 
-
+*Insight:* Afternoon sales generate nearly *9.5x* the revenue of morning hours, with the highest number of orders and items sold.
   - Afternoon and Night shows significantly higher sales than Morning
   - Most people prefer light meal for breakfast like tea, coffee and cereal with bread while some are focused with work and not meal yet.
   - People order more in the afternoon for lunch, meetings and group gathering. 
@@ -200,23 +212,6 @@ Run targeted promotions on Fridays and during
 ## Contact
 If you have feedback or questions, feel free to connect with me on [LinkedIn](#) or send me a message.
 
-
-
-## Business Problems and Objectives
-
-*1. Revenue by Pizza Type*  
-- *Requirement:* Analyze which pizza types contribute the most to company revenue.  
-- *Objective:* Optimize menu offerings by promoting best-selling pizza types and identifying underperforming ones to revamp or remove.
-
-*2. Customer Preferences by Pizza Category*  
-- *Requirement:* Group pizzas by their category (e.g., Chicken, Supreme, Veggie) and identify which are most popular.  
-- *Objective:* Target promotions toward popular categories and explore cross-selling opportunities with beverages.
-
-*3. Sales Seasonality*  
-- *Requirement:* Identify trends in pizza sales across the year, factoring in holidays, weekdays, and times of day.  
-- *Objective:* Plan inventory and marketing strategies aligned with peak demand periods to reduce waste and boost sales.
-
----
 
 ## Recommendations
 
@@ -268,55 +263,6 @@ Here’s how you can back your recommendations step-by-step:
 
 When you say something like:
 
-> "Afternoon has more sales than morning"
-
-
-
-Back it up with summary numbers:
-
-### Time of Day Sales Summary
-
-| Time of Day | Total Revenue | Orders | Quantity Sold |
-|-------------|---------------|--------|----------------|
-| Morning     | £3,406        | 202    | 209            |
-| Afternoon   | £32,244       | 1,913  | 1,960          |
-| Night       | £31,541       | 1,744  | 1,886          |
-
-*Insight:* Afternoon sales generate nearly *9.5x* the revenue of morning hours, with the highest number of orders and items sold.
-
-
----
-
-2. Add Simple Visualizations (Screenshots or Plots)
-
-In your Power BI, take a screenshot of charts that support your recommendation and include them in your GitHub project folder.
-
-Then, in your README.md, embed them like this:
-
-### Top Performing Pizza Types
-
-![Top Pizza Chart](images/top_pizza_types.png)
-
-*Insight:* Thai Chicken, BBQ Chicken, and California Chicken pizzas dominate in revenue, accounting for over 40% of total pizza sales.
-
-
----
-
-3. Use Percentage Comparisons
-
-### Pizza Category Sales
-
-| Category | Revenue | % of Total |
-|----------|---------|------------|
-| Chicken  | £78,000 | 38%        |
-| Supreme  | £64,000 | 31%        |
-| Veggie   | £34,000 | 17%        |
-| Classic  | £28,000 | 14%        |
-
-*Insight:* Chicken pizzas generate the highest revenue at 38%, nearly double that of Classic pizzas. This supports the recommendation to focus marketing and expansion on the Chicken category.
-
-
----
 
 4. Highlight Trends in Bullet Points
 
@@ -328,80 +274,15 @@ Then, in your README.md, embed them like this:
 *Recommendation Backed by Data:* Increase production and marketing in Q1 and high-performing months (Jan, Jul, Aug).
 
 
----
 
-In Summary:
-
-To back your recommendations:
-
-Use data tables and percentage comparisons.
-
-Highlight revenue, order count, and item quantity.
-
-Add Power BI visuals as images.
 
 Write a short 1–2 line "Insight" under each to connect the data to the business decision.
 
 
-Would you like help summarizing your pizza dataset into those markdown tables and insights for GitHub? I can help you structure and write them.
-
-Great! Let’s structure your GitHub README.md to showcase your pizza sales analysis like a professional data analyst portfolio piece. Below is a clean, organized format with clear sections, tables, insights, and recommendations.
-
-
----
-
-Pizza Sales Analysis Dashboard
-
-A Power BI dashboard project analyzing trends in pizza sales to derive actionable business insights.
-
-
----
-
-Business Problems and Objectives
-
-1. Revenue by Pizza Type
-
-Requirement: Identify which pizza types contribute most to company revenue.
-
-Objective: Promote best-sellers, revamp or remove underperforming items.
-
-
-
-2. Customer Preferences by Pizza Category
-
-Requirement: Group pizzas by category and identify the most popular.
-
-Objective: Target marketing efforts and explore cross-sells with beverages.
-
-
-
-3. Sales Seasonality
-
-Requirement: Identify trends over time (monthly, quarterly, seasonally, and time of day).
-
-Objective: Align inventory, staffing, and promotions with demand patterns.
 
 
 
 
-
----
-
-Key Insights
-
-1. Revenue by Pizza Type
-
-Insight: The top 3 best-selling pizzas are all from the Chicken category. The Brie Carre, only available in small size, is the least performing.
-
-
----
-
-2. Customer Preferences by Pizza Category
-
-Insight: Chicken pizzas are not only most popular, but also offer more size flexibility. Small size dominates across all categories.
-
-
----
 
 3. Sales by Time of Day
 
@@ -415,15 +296,6 @@ Insight: Afternoon and Night account for over 90% of sales revenue. Mornings con
 Insight: Fridays have the highest volume, likely due to weekend preparation. Sundays see a sales dip.
 
 
----
-
-5. Seasonal Sales Trends
-
-Monthly Peak: January, July, August
-Low Months: February, October
-
-
----
 
 Recommendations
 
@@ -455,17 +327,3 @@ Veggie – Cucumber Water, Green Tea
 
 
 
----
-
-Power BI Dashboard Screenshots
-
-Insert relevant visual screenshots here
-
-![Top Pizza Types](images/top_pizza.png)
-![Sales by Time of Day](images/time_of_day.png)
-![Monthly Sales Trends](images/monthly_trends.png)
-
-
----
-
-Would you like me to help you write the actual README.md file for GitHub with this content, or generate Power BI visual placeholders and folder structure for your project?
