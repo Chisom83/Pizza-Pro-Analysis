@@ -5,7 +5,13 @@ Pizza Pro Analysis aims to uncover insights that enhance there pizza quality and
 ## Table of Content
 
 ## Project Overview
-Pizza Pro is a growing pizza chain offering a variety of pizza in different sizes and flavors. Specializing in both Classic and gourmet pizzas, it caters to a broad customer base across Urban and Suburban areas in multiple United State cities. The company seeks to improve its pizza quality and ensure a top-tier customer experience through a diverse range of toppings,ingredient and sizes.
+Pizza Pro is a growing pizza chain offering a variety of pizza in different sizes and flavors. Specializing in both Classic and gourmet pizzas, it caters to a broad customer base across Urban and Suburban areas in multiple United State cities. The company seeks to improve its pizza quality and ensure a top-tier customer experience through a diverse range of toppings,ingredient and sizes. The analysis explores revenue by pizza type, customer preferences by category, and sales seasonality by time of day, week, and month.
+
+## Objectives
+- Identify top-performing and underperforming pizza types by revenue.
+- Analyze customer preferences across different pizza categories.
+- Understand seasonal and time-based sales patterns.
+- Provide actionable business recommendations based on data.
 
 ## Business Requirement
 ### KPIs 
@@ -24,8 +30,11 @@ Pizza Pro is a growing pizza chain offering a variety of pizza in different size
   - Requirement: Identify trends in pizza sales across different times of the year, correlating with holidays, weather changes, and regional events.
   - Objective: Optimize inventory management and marketing strategies based on seasonal trends, ensuring adequate stock during peak demand periods while minimizing waste during slower months.
  
-## Data Source
+## Dataset
 The dataset used for this analysis can be acessed in  Microsoft Excel [download here].(https://www.microsoft.com)
+- Fields: Pizza Name, Category, Size, Order Time, Date, Quantity, Revenue.
+- Period Covered: One year (January to December).
+  
 ## Tool Used
 - Power BI
   - For Data cleaning
@@ -73,7 +82,7 @@ The dataset, provided as a CSV file, was loaded into Power BI, and the following
 
 ### Business Problem and Key Insights
 
-1. Revenue by Pizza Type
+### 1. Revenue by Pizza Type
 > Image
 - Insight:
     - Top Performers:
@@ -84,7 +93,7 @@ The dataset, provided as a CSV file, was loaded into Power BI, and the following
       - All belong to the Chicken category and generating more revenue to the company.
    - Underperformer:
      
-      - Brie Carre – only sells in small size, contributing the least revenue
+      - Brie Carre – sells only in small size and generating the least revenue.
 
 - Measure Used: 
 
@@ -93,12 +102,13 @@ Recommendation:
 Promote Chicken pizzas across channels; offer bundle deals
 
 Consider rebranding, resizing, or phasing out Brie Carre
+*Recommendation:* Promote high-performing chicken pizzas. Consider resizing or removing Brie Carre from the menu.
 
-2. Customer Preferences by Pizza Category
+### 2. Customer Preferences by Pizza Category
 > Image
 - Insight
    - Chicken category is the most popular and prefered pizza by customers.
-   - The difference between the three different categories is small which ranges from (1–2%), showing a fairly balanced demand.
+   - The difference between the three different categories is minimal which ranges from (1–2%), showing a fairly balanced demand.
    - Chicken category alone has five size variant ( small, medium, large, X-Large and XXLarge) while the other categories has only three (3) different sizes.
 
 - Measure Used:
@@ -107,22 +117,27 @@ Recommendation:
 
 Focus cross-selling efforts on Chicken pizzas with beverages and side dishes
 Evaluate introducing more size options for other categories
+*Recommendation:* Leverage the Chicken category for cross-selling with drinks and sides. Offer size variety in other categories for competitiveness.
 
-3. Sales Seasonality
+### 3. Sales Seasonality
 > Image 
 - Insight
     - By Month and Quater:
        - Higher sales in: January, March, April, May, June, July, August, November, December
-       - Slight drop in Q2 and Q3; Q4 is lowest but difference is not significant
+       - Slight drop in Q2 and Q3; Q4 is lowest but difference is minor or not significant
 
     - By Day of the Week:
-       - Friday records the highest sales, likely due to individuals rewarding themselves after a long work or school week.
-       - Increased social activities such as parties movie night and hangout.
-       - Most people receive there pay check on fridays. 
-       - Sunday low sales can be attributed to due to families opting for home cooked meal.
-       - There are social activities but fewer as people prepare for the upcoming week.
-       - Pro pizza which is the company that has this dataset has a reduced operating hours on Sunday.  contributed toits low sales.
-
+       - In general sales gradually increase from Monday to Friday.
+       - Friday:
+            - records the highest sales, likely due to individuals rewarding themselves after a long work or school week.
+            - Increased social activities such as parties movie night and hangout.
+            - Most people receive there pay check on fridays. 
+       - Sunday:
+           -  low sales can be attributed to due to families opting for home cooked meal.
+           - There are social activities but fewer as people prepare for the upcoming week.
+           - Pro pizza which is the company that has this dataset has a reduced operating hours on Sunday.  contributed toits low sales.
+     
+  
    - By Season:
        - Spring: Highest sales
        - Autumn: Lowest
@@ -139,7 +154,7 @@ Evaluate introducing more size options for other categories
   - Afternoon and Night shows significantly higher sales than Morning
   - Most people prefer light meal for breakfast like tea, coffee and cereal with bread while some are focused with work and not meal yet.
   - People order more in the afternoon for lunch, meetings and group gathering. 
-  - Most night are for social activties and people order inregard to it and also for dinner not having to go through the stress of cooking.
+  - Most night are for social activties and people order in regard to it and also for dinner not having to go through the stress of cooking.
     
 
 Recommendation:
@@ -150,16 +165,10 @@ Promote meal deals during lunch and dinner periods
 
 Run targeted promotions on Fridays and during 
 
-# Pizza Sales Analysis Dashboard
-
-## Overview
-This project analyzes sales data from a pizza company to generate insights that can inform product, marketing, and operational strategies. The analysis explores revenue by pizza type, customer preferences by category, and sales seasonality by time of day, week, and year.
-
-## Objectives
-- Identify top-performing and underperforming pizza types by revenue.
-- Analyze customer preferences across different pizza categories.
-- Understand seasonal and time-based sales patterns.
-- Provide actionable business recommendations based on data.
+*Recommendation:*  
+- Reduce inventory and staff during low-morning hours.  
+- Promote lunch/dinner deals.  
+- Focus marketing on Fridays and spring season.
 
 ## Dataset
 - *Source:* Simulated internal sales data.
@@ -167,56 +176,6 @@ This project analyzes sales data from a pizza company to generate insights that 
 - *Period Covered:* One year (January to December).
 - *Tool Used:* Power BI, Excel.
 
-## Key Findings
-
-### 1. Revenue by Pizza Type
-- *Top Performers:*  
-  - Thai Chicken Pizza  
-  - Barbecue Chicken Pizza  
-  - California Chicken Pizza  
-  - (All in the Chicken category)
-- *Underperformer:*  
-  - Brie Carre Pizza — sells only in small size and generates the least revenue.
-
-*Recommendation:* Promote high-performing chicken pizzas. Consider resizing or removing Brie Carre from the menu.
-
----
-
-### 2. Customer Preferences by Pizza Category
-- *Most Popular:* Chicken Category — highest orders and revenue.
-- Chicken pizzas offer *five sizes*, while other categories have only three.
-- Preference difference between categories is minimal (1–2%).
-
-*Recommendation:* Leverage the Chicken category for cross-selling with drinks and sides. Offer size variety in other categories for competitiveness.
-
----
-
-### 3. Sales Seasonality
-
-#### Monthly Trends:
-- Highest sales in January, March, April, May, June, July, August, November, and December.
-- Q1 has the highest total revenue; Q4 the lowest, but the difference is minor.
-
-#### Day of Week:
-- *Friday:* Peak sales (end-of-week relaxation).
-- *Sunday:* Lowest sales.
-- Sales gradually increase from Monday to Friday.
-
-#### Time of Day:
-| Time Period | Revenue (£) | Orders | Quantity |
-|-------------|--------------|--------|----------|
-| Morning     | 3,406        | 202    | 209      |
-| Afternoon   | 32,244       | 1,913  | 1,960    |
-| Night       | 31,541       | 1,744  | 1,886    |
-
-- Afternoon and night are high-sales periods — tied to lunch breaks and dinner hours.
-
-*Recommendation:*  
-- Reduce inventory and staff during low-morning hours.  
-- Promote lunch/dinner deals.  
-- Focus marketing on Fridays and spring season.
-
----
 
 ## Business Impact
 - Improved focus on profitable items.
@@ -224,14 +183,6 @@ This project analyzes sales data from a pizza company to generate insights that 
 - Data-driven promotional timing.
 - Opportunity to optimize the menu and customer satisfaction.
 
----
-
-## Tools & Technologies
-- *Power BI:* Dashboards and visualizations  
-- *Excel:* Data cleaning and exploration  
-- *SQL (optional):* For querying if data was in a relational database
-
----
 
 ## Next Steps
 - Add customer demographic segmentation.
@@ -249,8 +200,7 @@ This project analyzes sales data from a pizza company to generate insights that 
 ## Contact
 If you have feedback or questions, feel free to connect with me on [LinkedIn](#) or send me a message.
 
----
-Refined Version (GitHub Portfolio Ready)
+
 
 ## Business Problems and Objectives
 
