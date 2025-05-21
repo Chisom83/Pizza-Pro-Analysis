@@ -116,9 +116,12 @@ Evaluate introducing more size options for other categories
        - Slight drop in Q2 and Q3; Q4 is lowest but difference is not significant
 
     - By Day of the Week:
-       - Friday has the highest sales which is as a result people tend to reward themselves after a long work week or school week. Also fridays are usually days for social gathering like parties movie night and hangout. Many receive there pay check on friday these are some of the things that boost sales on friday more.
-       - Sunday low sales is due to one of the following many families prepare Sunday food and prefere to eat together as a family since the week is always very busy for most people. Fewer parties due to people prepare for Monday which is a work week or School week. Most importantly this pizza company has a reduced work hour on sunday which contributed toits low sales.
-       - Steady increase from Monday to Friday
+       - Friday records the highest sales, likely due to individuals rewarding themselves after a long work or school week.
+       - Increased social activities such as parties movie night and hangout.
+       - Most people receive there pay check on fridays. 
+       - Sunday low sales can be attributed to due to families opting for home cooked meal.
+       - There are social activities but fewer as people prepare for the upcoming week.
+       - Pro pizza which is the company that has this dataset has a reduced operating hours on Sunday.  contributed toits low sales.
 
    - By Season:
        - Spring: Highest sales
@@ -126,17 +129,17 @@ Evaluate introducing more size options for other categories
 
    - By Time of Day:
 
-
 | Time Period | Revenue($) | Orders | Quantity
 |-------------|------------|--------|----------
 | Morning     | 3,406      | 202    | 209
 | Afternoon   | 32,244     | 1,913  | 1,960
 | Night       | 31,541     | 1,744  | 1,886
 
-     - Afternoon and Night see significantly higher sales than Morning
-     - Afternoon peak driven by lunch breaks and group orders
-     - Night orders often relate to dinner and family meals
-
+     - Afternoon and Night shows significantly higher sales than Morning
+     - Most people prefer light meal for breakfast like tea, coffee and cereal with bread while some are focused with work and not meal yet.
+     - People order more in the afternoon for lunch, meetings and group gathering. 
+     - Most night are for social activties and people order inregard to it and also for dinner not having to go through the stress of cooking.
+    
 
 Recommendation:
 
