@@ -2,11 +2,13 @@
 
 Pizza Pro Analysis aims to uncover insights that enhance there pizza quality and create a unique customer experience.
 
+## Table of Content
+
 ## Project Overview
 Pizza Pro is a growing pizza chain offering a variety of pizza in different sizes and flavors. Specializing in both Classic and gourmet pizzas, it caters to a broad customer base across Urban and Suburban areas in multiple United State cities. The company seeks to improve its pizza quality and ensure a top-tier customer experience through a diverse range of toppings,ingredient and sizes.
 
 ## Business Requirement
-- KPIs 
+### KPIs 
   - Total Revenue: The total sales generated from the pizza orders
   - Order Quantity: The total volume of pizzas sold.
   - Total Orders: The total number of overall orders.
@@ -49,17 +51,39 @@ The dataset, provided as a CSV file, was loaded into Power BI, and the following
    - Developed an interactive dashboard to answer the business questions, visualizing key insights to support decision-making.
 - This structured approach ensured that the dataset was well-prepared for in-depth analysis, enabling accurate insights into Pizza Pro’s sales, customer preferences, and operational efficient.
 
-### Key Insights
+### Measures Used
+- All measures use in this analysis can be assessed here
 
-#### Revenue by Pizza Type
+### KPIs
 
+#### Total Revenue
+> Image
+- Insight
+- Measure Used:
+  
+#### Order Quantity
+> Image
+- Insight
+- Measure Used:
+  
+#### Total Orders
+> Image
+- Insight
+- Measure Used:
+
+### Business Problem and Key Insights
+
+1. Revenue by Pizza Type
+> Image
 - Insight: Top Performers:
       - Thai Chicken
       - Barbecue Chicken
       - California Chicken
-      - All belong to the Chicken category
+      - All belong to the Chicken category and generaating more revenue to the company.
 - Underperformer:
       - Brie Carre – only sells in small size, contributing the least revenue
+
+- Measure Used: 
 
 Recommendation:
 
@@ -67,30 +91,29 @@ Promote Chicken pizzas across channels; offer bundle deals
 
 Consider rebranding, resizing, or phasing out Brie Carre
 
-
-
-#### Customer Preferences by Pizza Category
-
+2. Customer Preferences by Pizza Category
+> Image
 - Insight
-   - Chicken category is the most popular and profitable
-   - Category Size Variety: Chicken has 5 size variants; others only 3
-   - Difference in preference between categories is small (1–2%), showing a fairly balanced demand
+   - Chicken category is the most popular and prefered pizza by customers.
+   - The difference between the three different categories is small which ranges from (1–2%), showing a fairly balanced demand.
+   - Chicken category alone has five size variant ( small, medium, large, X-Large and XXLarge) while the other categories has only three (3) different sizes.
 
-
+- Measure Used:
+  
 Recommendation:
 
 Focus cross-selling efforts on Chicken pizzas with beverages and side dishes
-
 Evaluate introducing more size options for other categories
 
-#### Sales Seasonality
+3. Sales Seasonality
+> Image 
 - Insight
-    - By Month:
+    - By Month and Quater:
        - Higher sales in: January, March, April, May, June, July, August, November, December
        - Slight drop in Q2 and Q3; Q4 is lowest but difference is not significant
 
     - By Day of the Week:
-       - Friday: Highest sales – end-of-week relaxation and group hangouts
+       - Friday has the highest sales – end-of-week relaxation and group hangouts
        - Sunday: Lowest sales
        - Steady increase from Monday to Friday
 
