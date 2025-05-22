@@ -32,3 +32,34 @@ DISTINCTCOUNT(Fact_Table[Order_Id])
     RETURN
     IF(_ActivePizzaType IN _PizzaType, [Total Revenue])
 ```
+
+## LM Revenue 
+```
+    CALCULATE(
+        [Total Revenue],DATEADD('Calendar'[Date], -1,MONTH))
+```
+
+## LM Quantity 
+```
+    CALCULATE(
+        [Total Quantity],DATEADD('Calendar'[Date], -1,MONTH))
+```
+
+## LM Orders 
+```
+    CALCULATE(
+        [Total Orders],DATEADD('Calendar'[Date], -1,MONTH))
+```
+
+## DynamicTitle 
+```
+ VAR _TopBottom = 
+ SELECTEDVALUE( 'Top/Bottom Slide'[Top/Bottom])
+ VAR _ActiveTopBottom = SELECTEDVALUE('Switch Top/Bottom'[Switch Top/Bottom Order])
+ VAR _Result =
+    IF(_ActiveTopBottom=0,_TopBottom&"Best Performing Pizza by Revenue", 
+      "Underperforming Pizza by Revenue"
+    )
+Return
+    _Result
+```
