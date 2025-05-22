@@ -68,17 +68,17 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 #### Total Revenue
 > Image
 - Insight
-- Measure Used:
+- Measure Used: [Total Revenue](DAX_Measures.md#total-revenue)
   
-#### Order Quantity
+#### Total Quantity
 > Image
 - Insight
-- Measure Used:
+- Measure Used: [Total Quantity](DAX_Measures.md#total-quantity)
   
 #### Total Orders
 > Image
 - Insight
-- Measure Used:
+- Measure Used: [Total Orders](DAX_Measures.md#total-orders)
 
 ### Business Problem and Key Insights
 
@@ -98,7 +98,7 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 
 *Insight:* Thai Chicken, BBQ Chicken, and California Chicken pizzas dominate in revenue, accounting for over 40% of total pizza sales.
 
-- Measure Used: 
+- Measure Used: pizza Name and [PizzaType Dynamic Bottom](DAX_Measures.md#pizza-type-dynamic-bottom), [PizzaType Dynamic Top](DAX_Measures.md#pizza-type-dynamic-top) This two measure is placed together in the switch Top/Bottom table by clicking on new parameter and click on field to place the two measures into the table.  
 
 ### 2. Customer Preferences by Pizza Category
 > Image
@@ -106,20 +106,23 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 
 | Category | $ Revenue | % of Revenue |
 |----------|-----------|--------------|
-| Chicken  | $78,000   | 27%          |
-| Supreme  | $64,000   | 25%          |
-| Classic  | $34,000   | 24%          |
-| Veggie   | $28,000   | 23%          |
+| Chicken  | $224,023  | 27%          |
+| Supreme  | $208,197  | 25%          |
+| Classic  | $198,410  | 24%          |
+| Veggie   | $193,690  | 23%          |
 
 
    - Chicken pizza category is the most popular and prefered pizza by customers generating the highest revenue.
    - The difference between the four different categories is minimal which ranges from (1–2%), showing a fairly balanced demand.
    - Chicken pizzas offer more size flexibility ( small, medium, large, X-Large and XXLarge) while the other categories offers only three (3) different sizes.
    - Small size dominates across all categories.
-- Measure Used:
+
+- Measure Used: [Total Revenue](DAX_Measures.md#total-revenue) and pizza category column.
   
 ### 3. Sales Seasonality
-> Image 
+> Image
+
+- Measure Used: [Total Revenue](DAX_Measures.md#total-revenue), Quater and month column in calendar table
 - Insight
     - By Month and Quater:
        - Higher sales in January, March, April, May, June, July, August, November, December
@@ -127,6 +130,7 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 
 > Image
 
+- Measure Used: [Total Revenue](DAX_Measures.md#total-revenue) and Day of week column in the calendar table
   - By Day of the Week:
        - In general sales gradually increase from Monday to Friday.
        - Friday records the highest sales due to -
@@ -137,14 +141,15 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
            - Families opting for home cooked meal.
            - Pro pizza which is the company that has this dataset has a reduced operating hours on Sunday which contributed to it's low sales.
 
-   > Image  
+   > Image
+   - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue) and Season column in calendar table
    - By Season:
        - Spring: Highest sales
        - Autumn: Lowest
 
-> Image
    - By Time of Day:
-
+       - I displayed this as a measure and this is the breakdown
+  
 | Time Period | Revenue($)  | Orders  | Quantity
 |-------------|-------------|---------|----------
 | Morning     | $3,406      | 202     | 209
