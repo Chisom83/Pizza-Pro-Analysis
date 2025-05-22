@@ -126,7 +126,8 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
        - High sales in Q1 with slight drop in Q2 and Q3 while Q4 has the lowest sale but the difference is minor.
 
 > Image
-    - By Day of the Week:
+
+  - By Day of the Week:
        - In general sales gradually increase from Monday to Friday.
        - Friday records the highest sales due to -
             - Individuals rewarding themselves after a long work or school week.
@@ -184,9 +185,9 @@ Pizza Pro is on the path to enhancing its menue, boosting customers satisfaction
 
 ## Dashboard
 
-- Link to dashboard ![Dashboard]()
+- Link to dashboard [Dashboard]()
 
 ## Contact
-We can connect on [LinkedIn](#) or send me a message via [Email]()
+Lets can connect on [LinkedIn](#) or send me a message via [Email]()
 
 
