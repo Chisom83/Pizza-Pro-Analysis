@@ -14,3 +14,21 @@ SUM(Fact_Table[Quantity])
 ```
 DISTINCTCOUNT(Fact_Table[Order_Id])
 ```
+## PizzaType Dynamic Bottom 
+```
+    VAR _PizzaType =
+    TOPN('Top/Bottom Slide'[Top/Bottom Value],
+    ALL(Fact_Table[Pizza_Name]), [Total Revenue],ASC)
+    VAR _ActivePizzaType = SELECTEDVALUE(Fact_Table[Pizza_Name])
+    RETURN
+    IF(_ActivePizzaType IN _PizzaType, [Total Revenue])
+```
+## PizzaType Dynamic Top
+```
+    VAR _PizzaType =
+    TOPN('Top/Bottom Slide'[Top/Bottom Value],
+    ALL(Fact_Table[Pizza_Name]), [Total Revenue],DESC)
+    VAR _ActivePizzaType = SELECTEDVALUE(Fact_Table[Pizza_Name])
+    RETURN
+    IF(_ActivePizzaType IN _PizzaType, [Total Revenue])
+```
