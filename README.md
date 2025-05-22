@@ -61,7 +61,7 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 - This structured approach ensured that the dataset was well-prepared for in-depth analysis, enabling accurate insights into Pizza Pro’s sales, customer preferences, and operational efficient.
 
 ### Measures Used
-- All measures use in this analysis can be assessed here[View Dax Measures](./Dax Measures.md).
+- All measures use in this analysis can be assessed here[View Dax Measures](./Dax-Measures.md)
 
 ### KPIs
 
