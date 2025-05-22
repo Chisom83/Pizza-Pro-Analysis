@@ -5,7 +5,7 @@ Pizza Pro Analysis aims to uncover insights that enhance there pizza quality and
 ## Table of Content
 
 ## Project Overview
-Pizza Pro is a growing pizza chain offering a variety of pizza in different sizes and flavors. Specializing in both Classic and gourmet pizzas, it caters to a broad customer base across Urban and Suburban areas in multiple United State cities. The company seeks to improve its pizza quality and ensure a top-tier customer experience through a diverse range of toppings,ingredient and sizes. The analysis explores revenue by pizza type, customer preferences by category, and sales seasonality by time of day, week, and month.
+Pizza Pro is a growing pizza chain offering a variety of pizza in different sizes and flavors. Specializing in both Classic and gourmet pizzas, it caters to a broad customer base across Urban and Suburban areas in multiple United State cities. The company seeks to improve its pizza quality and ensure a top-tier customer experience through a diverse range of toppings,ingredient and sizes. This analysis explores revenue by pizza type, customer preferences by category, and sales seasonality by time of day, week, and month.
 
 ## Objectives
 - Identify top-performing and underperforming pizza types by revenue.
@@ -91,31 +91,26 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
       - Barbecue Chicken
       - California Chicken
       - All belong to the Chicken category and generating more revenue to the company.
+
    - Underperformer:
      
       - Brie Carre – sells only in small size and generating the least revenue.
 
 *Insight:* Thai Chicken, BBQ Chicken, and California Chicken pizzas dominate in revenue, accounting for over 40% of total pizza sales.
+
 - Measure Used: 
-
-Recommendation:
-
-Promote Chicken pizzas across channels; offer bundle deals
-
-Consider rebranding, resizing, or phasing out Brie Carre
-*Recommendation:* Promote high-performing chicken pizzas. Consider resizing or removing Brie Carre from the menu.
 
 ### 2. Customer Preferences by Pizza Category
 > Image
 - Insight
   ### Pizza Category Sales
 
-| Category | Revenue | % of Total |
-|----------|---------|------------|
-| Chicken  | £78,000 | 38%        |
-| Supreme  | £64,000 | 31%        |
-| Veggie   | £34,000 | 17%        |
-| Classic  | £28,000 | 14%        |
+| Category | $ Revenue | % of Revenue |
+|----------|-----------|--------------|
+| Chicken  | $78,000   | 27%          |
+| Supreme  | $64,000   | 25%          |
+| Veggie   | $34,000   | 23%          |
+| Classic  | $28,000   | 23%          |
 
 
    - Chicken pizza category is the most popular and prefered pizza by customers generating the highest revenue of 38%, nearly double of Veggie pizza.
