@@ -191,143 +191,38 @@ Run targeted promotions on Fridays and during
 - A/B test modified menu offerings.
 - Link this project to a live dashboard or embed visuals in GitHub README.
 
-## Contact
-If you have feedback or questions, feel free to connect with me on [LinkedIn](#) or send me a message.
-
-
 ## Recommendations
-Recommendation:
+Based on the analysis of the pizza pro sales dataset, here are key recommendation to improve performance, customer satifaction and improve inventory management .
+1. ### Revamp Underperforming Pizza
+      -  Rather than removing the underperforming pizza e.g., Brie Carre lets consider revamping its recipe and offering it in additional sizes(Small, Medium, Large, Xl, XXL).
+      -  Also a bundle promotion can be done such as "Buy one XXL best performing pizza and get one small Brie Carre pizza free" to boost visibility and encourage trial.
 
-Promote Chicken pizzas across channels; offer bundle deals
+2. ### Diversify Sizes for Best Performing Pizza
+     - Ensure that the top-performing pizzas are consistently avaliable in all sizes. This will offer customers more flexibility and increase the likelihood of repeat purchase across different customers segments.
+  
+3. ### Leverage Customer Feedback
+     - Very important, customers reviews should collected and reviewed to identify secific areas for improvement in product taste, packaging and delivery.
+  
+4. ### Optimize Production
+      - Effort on production should be put during peak hours (Afternoon &Evening) since pizza is not necessarily a breakfast item. All popular pizza should be avaliable during thes hours to build customers trust and meet demand.
+      - More production on weekdays and saturday seeing that demands are higher and reduced production on sunday because of the limited working hours.
 
-Consider rebranding, resizing, or phasing out Brie Carre
-*Recommendation:* Promote high-performing chicken pizzas. Consider resizing or removing Brie Carre from the menu.
-Recommendation:
+5. ### Introduce Complement Beverages
+    - Offer targeted beverage pairings to boost cross-selling and customer satisfaction:
+         - Chicken pizzas: Pair with Iced Tea, Lemonade
+         - Supreme pizzas: Pair with Ginger Ale or Citrus Soda
+         - Classic pizzas: Serve with Red Wine, Cola, or Root Beer
+         - Veggie pizzas:  Recommend Cucumber Water, Iced Green Tea, or White Lemonade
+    - This will improve customers experience and also the average order value.
+  
+## Conclusion
+Pizza Pro is on the path to enhancing its menue, boosting customers satisfaction and increasing revenue. By combining data-driven insights with direct customer feedback, the brand can ensure continous product improvement, stronger customer loyalty and long-term sales growth. Utimately, if our offering don't resonate with customers sales and profit will decline. Therefore listening to our customers while responding to market trend is important for Pizza Pro continous success.
 
-Focus cross-selling efforts on Chicken pizzas with beverages and side dishes
-Evaluate introducing more size options for other categories
-*Recommendation:* Leverage the Chicken category for cross-selling with drinks and sides. Offer size variety in other categories for competitiveness.
-Recommendation:
+## Dashboard
 
-Scale down morning operations or explore breakfast-focused offerings
+- Link to dashboard ![Dashboard]()
 
-Promote meal deals during lunch and dinner periods
-
-Run targeted promotions on Fridays and during 
-
-*Recommendation:*  
-- Reduce inventory and staff during low-morning hours.  
-- Promote lunch/dinner deals.  
-- Focus marketing on Fridays and spring season.
-### *1. Menu Optimization*
-- The top-selling pizzas (Thai Chicken, BBQ Chicken, California Chicken) are all from the *Chicken category* and available in *multiple sizes* (Small, Medium, Large).
-  - *Recommendation:* Ensure that all best-selling pizzas are available in all sizes, including X-Large and XXL, to increase upsell potential.
-- The *Brie Carre pizza* is underperforming and only sold in Small size.
-  - *Recommendation:* Instead of removing it, revamp the recipe and introduce additional sizes. Consider bundling it with top sellers — e.g., "Buy one X-Large, get one Small Brie Carre free" — to improve visibility and trial.
-
-### *2. Beverage Pairing Strategy*
-Offer targeted beverage pairings to boost cross-selling and customer satisfaction:
-- *Chicken pizzas:* Pair with Iced Tea, Lemonade
-- *Supreme pizzas:* Pair with Ginger Ale or Citrus Soda
-- *Classic pizzas:* Serve with Red Wine, Cola, or Root Beer
-- *Veggie pizzas:* Recommend Cucumber Water, Iced Green Tea, or White Lemonade
-- *General Options:* Offer Tea, Coffee, Fruit Juice, and Wine across the board
-
-### *3. Operational Strategy by Time and Day*
-- *Time of Day Insight:*  
-  - Morning sales are significantly lower (£3,406, 202 orders)  
-  - Afternoon sales peak (£32,244, 1,913 orders)  
-  - Night sales are slightly lower than afternoon but still strong (£31,541, 1,744 orders)
-  - *Recommendation:* Prioritize production and staffing in the *Afternoon and Evening*. Focus less on Morning hours.
-
-- *Day of Week Insight:*  
-  - Sales peak from *Thursday to Saturday, lowest on **Sunday*.  
-  - *Recommendation:* Increase production and staffing from *Thursday to Saturday*. Reduce output on Sundays. Slightly increase Monday–Wednesday to maintain consistency.
-
-- *Seasonality by Quarter & Month:*  
-  - Q1 shows the highest sales, with a slight decline in Q2 & Q3; Q4 is the lowest.
-  - Months like *January and July* perform better.
-  - *Recommendation:* Increase inventory and marketing focus during *Q1 and Q2* and in high-performing months. Scale back slightly during lower-sales periods (February, September, October).
-
----
-
-## Final Notes
-While pizza is a year-round product with consistent demand, this dataset reveals subtle patterns worth leveraging for operational efficiency and marketing focus. These data-driven recommendations aim to increase profitability while aligning with customer behavior.
-
----
-
-Excellent question — backing your recommendations with clear insights or data summaries is what transforms your work from opinion-based to evidence-based analysis, which hiring managers love to see in a GitHub portfolio.
-
-Here’s how you can back your recommendations step-by-step:
-
-
----
-
-1. Use Summarized Data Points
-
-When you say something like:
-
-
-4. Highlight Trends in Bullet Points
-
-### Monthly Sales Trend (Summary)
-- *Highest months:* January, July, August
-- *Lowest months:* February, October
-- *Quarterly Trend:* Q1 has the highest total sales; Q4 the lowest.
-
-*Recommendation Backed by Data:* Increase production and marketing in Q1 and high-performing months (Jan, Jul, Aug).
-
-
-
-
-Write a short 1–2 line "Insight" under each to connect the data to the business decision.
-
-
-
-
-
-
-
-3. Sales by Time of Day
-
-Insight: Afternoon and Night account for over 90% of sales revenue. Mornings contribute less than 5%.
-
-
----
-
-4. Sales by Day of the Week
-
-Insight: Fridays have the highest volume, likely due to weekend preparation. Sundays see a sales dip.
-
-
-
-Recommendations
-
-Promote Top Sellers: Focus promotions around Thai Chicken, BBQ Chicken, and California Chicken pizzas.
-
-Revamp Underperformers: Rebrand Brie Carre and offer it in more sizes. Bundle it with large-sized pizza as a giveaway to increase exposure.
-
-Optimize Inventory: Increase afternoon and night-time production. Cut morning supply.
-
-Strategic Scheduling:
-
-Scale up staffing and marketing Thursday–Saturday.
-
-Reduce Sunday production.
-
-Boost production in Q1, especially January and July.
-
-
-Cross-Sell Beverages:
-
-Chicken Pizzas – Lemonade, Iced Tea
-
-Supreme – Ginger Ale, Citrus Soda
-
-Classic – Cola, Red Wine
-
-Veggie – Cucumber Water, Green Tea
-
-
+## Contact
+We can connect on [LinkedIn](#) or send me a message.
 
 
