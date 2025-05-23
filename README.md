@@ -128,10 +128,13 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
        - Higher sales in January, March, April, May, June, July, August, November, December
        - High sales in Q1 with slight drop in Q2 and Q3 while Q4 has the lowest sale but the difference is minor.
 
-> Image
+ - By Day of the Week:
+
+![Day of Week](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Image/DayWeek.png?raw=true)
 
 - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue) and Day of week column in the calendar table
-  - By Day of the Week:
+
+   - Insight:
        - In general sales gradually increase from Monday to Friday.
        - Friday records the highest sales due to -
             - Individuals rewarding themselves after a long work or school week.
@@ -152,7 +155,7 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
        - Autumn: Lowest
 
    - By Time of Day:
-       - I displayed this as a measure and this is the breakdown
+       - I displayed this as a slicer and this is the breakdown
   
 | Time Period | Revenue($)  | Orders  | Quantity
 |-------------|-------------|---------|----------
