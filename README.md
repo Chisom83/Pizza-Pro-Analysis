@@ -93,7 +93,8 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
       - All belong to the Chicken category and generating more revenue to the company.
 
    - Underperformer:
-     
+  ![Underperforming](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Image/Underperforming.png?raw=true)
+- Insight:
       - Brie Carre – sells only in small size and generating the least revenue.
 
 *Insight:* Thai Chicken, BBQ Chicken, and California Chicken pizzas dominate in revenue, accounting for over 40% of total pizza sales.
