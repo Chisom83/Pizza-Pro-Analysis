@@ -66,7 +66,7 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 ### KPIs
 
 #### Total Revenue
-![Revenue]https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/KPI%20image/Revenue.png?raw=true)
+![Revenue](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/KPI%20image/Revenue.png?raw=true)
 
 - Insight:
 
