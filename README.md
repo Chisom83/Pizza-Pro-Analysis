@@ -66,18 +66,20 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 ### KPIs
 
 #### Total Revenue
-> Image
-- Insight
+> Imagehttps://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/KPI%20image/Orders.png?raw=true
+- Insight:
 - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue)
   
 #### Total Quantity
 > Image
-- Insight
+- Insight:
 - Measure Used: [Total Quantity](DAX_Measures.md#total-quantity)
   
 #### Total Orders
-> Image
-- Insight
+![Orders](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/KPI%20image/Orders.png?raw=true)
+
+- Insight:
+
 - Measure Used: [Total Orders](DAX_Measures.md#total-orders)
 
 ### Business Problem and Key Insights
