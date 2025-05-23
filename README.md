@@ -141,9 +141,13 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
            - Families opting for home cooked meal.
            - Pro pizza which is the company that has this dataset has a reduced operating hours on Sunday which contributed to it's low sales.
 
-   > Image
-   - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue) and Season column in calendar table
-   - By Season:
+- By Season:
+
+   ![Seasons](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Image/Seasons.png?raw=true)
+
+  - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue) and Season column in calendar table
+   
+   - Insight:
        - Spring: Highest sales
        - Autumn: Lowest
 
