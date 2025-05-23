@@ -101,7 +101,8 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 - Measure Used: pizza Name and [PizzaType Dynamic Bottom](DAX_Measures.md#pizza-type-dynamic-bottom), [PizzaType Dynamic Top](DAX_Measures.md#pizza-type-dynamic-top) This two measure is placed together in the switch Top/Bottom table by clicking on new parameter and click on field to place the two measures into the table.  
 
 ### 2. Customer Preferences by Pizza Category
-> Image
+![Revenue by pizza type](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Image/Revenuepizzacat.png?raw=true)
+
 - Insight
 
 | Category | $ Revenue | % of Revenue |
@@ -120,11 +121,13 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue) and pizza category column.
   
 ### 3. Sales Seasonality
-> Image
+- By Month and Quater:
+
+![Month](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Image/Month.png?raw=true)
 
 - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue), Quater and month column in calendar table
-- Insight
-    - By Month and Quater:
+
+  - Insight
        - Higher sales in January, March, April, May, June, July, August, November, December
        - High sales in Q1 with slight drop in Q2 and Q3 while Q4 has the lowest sale but the difference is minor.
 
