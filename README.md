@@ -216,6 +216,6 @@ Pizza Pro is on the path to enhancing its menue, boosting customers satisfaction
 - Link to dashboard [Dashboard]()
 
 ## Contact
-Lets can connect on [LinkedIn](#) or send me a message via [Email](chisomogbodo73@gmail.com)
+Lets can connect on [LinkedIn](#) or send me a message via [Email](mailto:chisomogbodo73@gmail.com)
 
 
