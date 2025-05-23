@@ -189,6 +189,7 @@ Based on the analysis of the pizza pro sales dataset, here are key recommendatio
 Pizza Pro is on the path to enhancing its menue, boosting customers satisfaction and increasing revenue. By combining data-driven insights with direct customer feedback, the brand can ensure continous product improvement, stronger customer loyalty and long-term sales growth. Utimately, if our offering don't resonate with customers sales and profit will decline. Therefore listening to our customers while responding to market trend is important for Pizza Pro continous success.
 
 ## Dashboard
+![Dashboard](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Dashboard/Dashboardpizza.png?raw=true)
 
 - Link to dashboard [Dashboard]()
 
