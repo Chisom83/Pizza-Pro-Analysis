@@ -66,8 +66,10 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 ### KPIs
 
 #### Total Revenue
-> Imagehttps://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/KPI%20image/Orders.png?raw=true
+![Revenue]https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/KPI%20image/Revenue.png?raw=true)
+
 - Insight:
+
 - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue)
   
 #### Total Quantity
@@ -214,6 +216,6 @@ Pizza Pro is on the path to enhancing its menue, boosting customers satisfaction
 - Link to dashboard [Dashboard]()
 
 ## Contact
-Lets can connect on [LinkedIn](#) or send me a message via [Email]()
+Lets can connect on [LinkedIn](#) or send me a message via [Email](chisomogbodo73@gmail.com)
 
 
