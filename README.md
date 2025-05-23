@@ -125,6 +125,8 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 
 ![Month](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Image/Month.png?raw=true)
 
+![Quater](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Image/Quater.png?raw=true)
+
 - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue), Quater and month column in calendar table
 
   - Insight
