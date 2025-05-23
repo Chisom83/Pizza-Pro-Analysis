@@ -83,7 +83,7 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 ### Business Problem and Key Insights
 
 ### 1. Revenue by Pizza Type
-> Image
+![Revenue by pizza type](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Image/Revenuepizzacat.png?raw=true)
 - Insight:
     - Top Performers:
       
