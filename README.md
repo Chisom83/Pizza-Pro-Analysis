@@ -71,8 +71,10 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue)
   
 #### Total Quantity
-> Image
+![Quantity](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/KPI%20image/Quantity.png?raw=true)
+
 - Insight:
+
 - Measure Used: [Total Quantity](DAX_Measures.md#total-quantity)
   
 #### Total Orders
