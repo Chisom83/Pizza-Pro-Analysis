@@ -9,6 +9,12 @@ Pizza Pro Analysis aims to uncover insights that enhance there pizza quality and
 
 [Business Problem and Key Insights](#business-problem-and-key-insights)
 
+[Recommendation](#recommendation)
+
+[Conclusion](#conclusion)
+
+[Dashboard](#dashboard)
+
 ## Project Overview
 Pizza Pro is a growing pizza chain offering a variety of pizza in different sizes and flavors. Specializing in both Classic and gourmet pizzas, it caters to a broad customer base across Urban and Suburban areas in multiple United State cities. The company seeks to improve its pizza quality and ensure a top-tier customer experience through a diverse range of toppings,ingredient and sizes. This analysis explores revenue by pizza type, customer preferences by category, and sales seasonality by time of day, week, and month.
 
@@ -37,7 +43,7 @@ Pizza Pro is a growing pizza chain offering a variety of pizza in different size
  
 ## Dataset
 The dataset used for this analysis can be acessed in  Microsoft Excel [download here].(https://www.microsoft.com)
-- Fields: Pizza Name, Category, Size, Order Time, Date, Quantity, Revenue.
+- Fields: Order Id, Pizza Id, Quantity, Date, Time, Pizza Size, Pizza Name, Pizza Price, Pizza Category, Pizza Ingredient and Time Period. 
 - Period Covered: One year (January to December).
   
 ## Tool Used
