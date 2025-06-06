@@ -118,8 +118,9 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
     - Brie Carre – sells only in small size and generating the least revenue.
       
 - N/B: Users can explore the Top performing and Underperforming pizza types with dynamic tooltips showing
-      - Pizza  avaliable sizes.
-      - Total revenue, order and quantity sold
+  
+   - Pizza  avaliable sizes.
+   - Total revenue, order and quantity sold
 
 *Insight:* Thai Chicken, BBQ Chicken, and California Chicken pizzas dominate in revenue, accounting for over 40% of total pizza sales.
 
