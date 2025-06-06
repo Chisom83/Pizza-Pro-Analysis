@@ -81,7 +81,7 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 
 - Insight:
      - The busisness generated a total revenue of $824,000 over the course of one year.
-     - January recorded the highest revenue of $74,000.
+     - January recorded the highest revenue of $73,513.
 
 - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue)
   
