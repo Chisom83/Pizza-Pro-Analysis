@@ -1,6 +1,6 @@
 # Pizzza Pro Analysis
 
-Pizza Pro Analysis aims to uncover insights that enhance there pizza quality and create a unique customer experience.
+Pizza Pro Analysis aims to uncover insights that will enhance there pizza quality and create a unique customer experience.
 
 ![Pizza Pro](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Dashboard/Pizza%20Pro.jpg?raw=true)
 
