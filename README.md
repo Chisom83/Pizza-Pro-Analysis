@@ -74,6 +74,8 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 ![Revenue](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/KPI%20image/Revenue.png?raw=true)
 
 - Insight:
+     - The busisness generated a total revenue of $824,000 over the course of one year.
+     - January recorded the highest revenue of $74,000.
 
 - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue)
   
@@ -81,6 +83,8 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 ![Quantity](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/KPI%20image/Quantity.png?raw=true)
 
 - Insight:
+     - A total of 50,000 pizzas were sold.
+     - January led in quantity sold with 4602 pizzas.
 
 - Measure Used: [Total Quantity](DAX_Measures.md#total-quantity)
   
@@ -88,6 +92,8 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 ![Orders](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/KPI%20image/Orders.png?raw=true)
 
 - Insight:
+     - There were approximately 49,000 customers orders throughout the year.
+     - While January had the highest revenue and quantity, July recorded the highest number of individual orders. 
 
 - Measure Used: [Total Orders](DAX_Measures.md#total-orders)
 
@@ -96,20 +102,24 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
 ### 1. Revenue by Pizza Type
 ![Top Performing](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Image/BestPerforming.png?raw=true)
 - Insight:
-    - Top Performers:
+    - Top Performing:
       
       - Thai Chicken
       - Barbecue Chicken
       - California Chicken
       - All belong to the Chicken category and generating more revenue to the company.
 
-   - Underperformer:
+   - Underperforming:
 
   ![Underperforming](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Image/Underperforming.png?raw=true)
 
 - Insight:
 
     - Brie Carre – sells only in small size and generating the least revenue.
+      
+- N/B: Users can explore the Top performing and Underperforming pizza types with dynamic tooltips showing
+      - Pizza  avaliable sizes.
+      - Total revenue, order and quantity sold
 
 *Insight:* Thai Chicken, BBQ Chicken, and California Chicken pizzas dominate in revenue, accounting for over 40% of total pizza sales.
 
@@ -132,7 +142,11 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
    - The difference between the four different categories is minimal which ranges from (1–2%), showing a fairly balanced demand.
    - Chicken pizzas offer more size flexibility ( small, medium, large, X-Large and XXLarge) while the other categories offers only three (3) different sizes.
    - Small size dominates across all categories.
-
+     
+- N/B: Each pizza category is enhanced with an interactive tooltip that displays
+     - Avaliable pizza type within the category.
+     - Total revenue, orders and quantity in that category.
+     
 - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue) and pizza category column.
   
 ### 3. Sales Seasonality
