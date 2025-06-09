@@ -239,9 +239,9 @@ Pizza Pro is on the path to enhancing its menue, boosting customers satisfaction
 ## Dashboard
 ![Dashboard](https://github.com/Chisom83/Pizza-Pro-Analysis/blob/main/Dashboard/Dashboardpizza.png?raw=true)
 
-- Link to dashboard [Dashboard]()
+- Link to dashboard [Dashboard](https://tinyurl.com/Pizza-Pro-dashboard)
 
 ## Contact
-Lets can connect on [LinkedIn](#) or send me a message via [Email](mailto:chisomogbodo73@gmail.com)
+Lets can connect on [LinkedIn](https://www.linkedin.com/in/chisom-ogbodo) or send me a message via [Email](mailto:chisomogbodo73@gmail.com)
 
 
