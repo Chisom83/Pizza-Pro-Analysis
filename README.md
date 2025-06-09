@@ -130,8 +130,6 @@ The dataset, provided as a CSV file was loaded into Power BI and the following s
    - Pizza  avaliable sizes.
    - Total revenue, order and quantity sold
 
-*Insight:* Thai Chicken, BBQ Chicken, and California Chicken pizzas dominate in revenue, accounting for over 40% of total pizza sales.
-
 - Measure Used: pizza Name and [PizzaType Dynamic Bottom](DAX_Measures.md#pizza-type-dynamic-bottom), [PizzaType Dynamic Top](DAX_Measures.md#pizza-type-dynamic-top) This two measure is placed together in the switch Top/Bottom table by clicking on new parameter and click on field to place the two measures into the table.  
 
 ### 2. Customer Preferences by Pizza Category
